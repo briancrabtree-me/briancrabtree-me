@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brian Crabtree — Resume</title>
+  <style>
+    :root {
+      --ink: #0a0a0a;
+      --muted: #3d3d3d;
+      --rule: #c8c8c8;
+      --accent: #1a5c4a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    @page { size: letter; margin: 0.55in 0.6in; }
+    html { font-size: 10.5pt; }
+    body {
+      font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      line-height: 1.45;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.6in 0.6in;
+      background: #fff;
+    }
+    header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 0.65rem;
+      margin-bottom: 0.85rem;
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+    .tagline {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 0.2rem;
+    }
+    .meta, .contact {
+      font-size: 0.92rem;
+      color: var(--muted);
+      margin-top: 0.35rem;
+    }
+    .contact a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); }
+    .contact a:hover { border-color: var(--accent); }
+    h2 {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin: 1rem 0 0.45rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    p { margin-bottom: 0.5rem; color: var(--muted); }
+    .summary p { color: var(--ink); }
+    ul.skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.15rem 1.5rem;
+      list-style: none;
+      font-size: 0.95rem;
+    }
+    ul.skills li::before { content: "— "; color: var(--accent); }
+    .job { margin-bottom: 0.75rem; break-inside: avoid; }
+    .job-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.25rem 1rem;
+      margin-bottom: 0.2rem;
+    }
+    .job-title { font-weight: 700; font-size: 1rem; }
+    .job-org { font-weight: 600; }
+    .job-date { font-size: 0.9rem; color: var(--muted); white-space: nowrap; }
+    .job ul {
+      margin: 0.25rem 0 0 1.1rem;
+      color: var(--muted);
+    }
+    .job li { margin-bottom: 0.2rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+      margin-top: 0.25rem;
+    }
+    th, td {
+      text-align: left;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid var(--rule);
+      vertical-align: top;
+    }
+    th { font-weight: 600; width: 38%; }
+    .footer {
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+    @media print {
+      body { padding: 0; }
+      a { color: var(--ink) !important; border: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brian Crabtree</h1>
+    <p class="tagline">Senior Web Architect · React 19 · TypeScript · Web Performance</p>
+    <p class="meta">Gilbert, Arizona · Open to remote / hybrid (US)</p>
+    <p class="contact">
+      <a href="https://briancrabtree.me/">briancrabtree.me</a> ·
+      <a href="mailto:brian@briancrabtree.me">brian@briancrabtree.me</a> ·
+      <a href="https://www.linkedin.com/in/briancrabtree-me">LinkedIn</a> ·
+      <a href="https://github.com/briancrabtree-me">GitHub</a>
+    </p>
+  </header>
+
+  <section class="summary">
+    <h2>Summary</h2>
+    <p>Senior web architect with <strong>25+ years</strong> shipping production web systems—from hand-coded HTML through modern React SPAs. Builds fast, maintainable marketing sites, dashboards, and internal tools for teams that treat performance and clarity as product requirements.</p>
+    <p>Production portfolio holds <strong>lab PageSpeed 100/100/100/100</strong> (mobile and desktop). Stack: React 19, TypeScript, vanilla CSS, Vite, Firebase, Linux. <strong>400+ client engagements</strong> as an independent architect; lead-level NDA work in regulated SaaS and enterprise environments.</p>
+  </section>
+
+  <section>
+    <h2>Core competencies</h2>
+    <ul class="skills">
+      <li>Frontend architecture · React 19 · TypeScript</li>
+      <li>Web performance · Core Web Vitals · PSI</li>
+      <li>Semantic HTML · accessible UI patterns</li>
+      <li>SPAs · marketing sites · technical SEO</li>
+      <li>Firebase · serverless · Linux deployment</li>
+      <li>Scoped delivery · staging · NDA programs</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Senior Web Architect</span> · <span class="job-org">briancrabtree.me</span> (Self-employed)</div>
+        <span class="job-date">Jan 2024 – Present</span>
+      </div>
+      <ul>
+        <li>Rebuilt platform on React 19, edge delivery, serverless content—journal, leads, admin without CMS bloat.</li>
+        <li>Sustained 100/100/100/100 Lighthouse on production; published OSS starters and performance field notes.</li>
+        <li>Own design tokens, prerender shell, performance budgets, auditable deploy paths.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Independent Web Architect</span> · <span class="job-org">Self-employed</span></div>
+        <span class="job-date">2015 – 2024</span>
+      </div>
+      <ul>
+        <li>400+ end-to-end engagements: architecture, build, launch, post-launch remediation.</li>
+        <li>High-conversion landings, React dashboards, performance hardening for SMBs and agencies.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Lead Architect</span> · <span class="job-org">Confidential · Regulated SaaS</span></div>
+        <span class="job-date">~2019 – 2022</span>
+      </div>
+      <ul>
+        <li>Multi-tenant SaaS boundaries, API gateway patterns, rollout strategy, front-end SLAs under load.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Frontend / Systems Handoff</span> · <span class="job-org">Confidential · Data-heavy product</span></div>
+        <span class="job-date">~2014 – 2018</span>
+      </div>
+      <ul>
+        <li>High-concurrency pipelines with backend teams; observable failure modes; operator diagnostics from JS.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Lead Designer / Developer</span> · <span class="job-org">Digital agencies</span></div>
+        <span class="job-date">2005 – 2015</span>
+      </div>
+      <ul>
+        <li>Responsive design and front-end delivery through the static-to-interactive transition.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">JavaScript Modernization</span> · <span class="job-org">Confidential · Enterprise</span></div>
+        <span class="job-date">~2007 – 2013</span>
+      </div>
+      <ul>
+        <li>Legacy JS performance at scale where full rewrites were not an option.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="job-title">Web Developer</span> · <span class="job-org">Freelance & agency</span></div>
+        <span class="job-date">2000 – 2005</span>
+      </div>
+      <ul>
+        <li>Hand-coded HTML/CSS; early e-commerce and brochure sites.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Selected public work</h2>
+    <table>
+      <tr><th>briancrabtree.me</th><td>Architecture, build, performance, content platform</td></tr>
+      <tr><th>pure-react-19-vanilla-starter</th><td>React 19 + Vite reference implementation (GitHub)</td></tr>
+      <tr><th>react-pubsub-store</th><td>React 19 external store pattern (GitHub)</td></tr>
+      <tr><th>vanilla-css-tokens</th><td>Design-token system without utility frameworks</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Technical skills</h2>
+    <p><strong>Stack:</strong> TypeScript, JavaScript, React 19, HTML5, CSS3, Vite, Node.js, Firebase, Linux · Lighthouse, PSI, Git · performance budgets, semantic markup, technical SEO</p>
+    <p><strong>Credentials:</strong> Google Cloud (architecture & infrastructure, verified) · 25 years continuous web engineering</p>
+  </section>
+
+  <p class="footer">References and case studies on request. Client names withheld under NDA.</p>
+</body>
+</html>

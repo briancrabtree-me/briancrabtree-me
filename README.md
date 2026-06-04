@@ -8,6 +8,7 @@
 [![Email](https://img.shields.io/badge/email-brian%40briancrabtree.me-ccff00?style=flat-square)](mailto:brian@briancrabtree.me)
 [![Starter](https://img.shields.io/badge/demo-react_19_starter-ccff00?style=flat-square)](https://github.com/briancrabtree-me/pure-react-19-vanilla-starter)
 [![Tokens](https://img.shields.io/badge/css-vanilla_css_tokens-ccff00?style=flat-square)](https://github.com/briancrabtree-me/vanilla-css-tokens)
+[![Resume](https://img.shields.io/badge/resume-view_%7C_pdf-ccff00?style=flat-square)](https://briancrabtree-me.github.io/briancrabtree-me/resume/Brian-Crabtree-Resume.html)
 
 </div>
 
@@ -23,6 +24,12 @@ I build and repair web systems where speed and clarity matter: semantic HTML, va
 - Vanilla CSS — custom properties, no utility frameworks
 - Semantic HTML5, accessible patterns where they earn their keep
 - Lab PageSpeed 100/100/100/100 on production work ([briancrabtree.me](https://briancrabtree.me/))
+
+## /// Resume
+
+- [View in browser](https://briancrabtree-me.github.io/briancrabtree-me/resume/Brian-Crabtree-Resume.html)
+- [Download PDF](https://briancrabtree-me.github.io/briancrabtree-me/resume/Brian-Crabtree-Resume.pdf)
+- [Source (Markdown)](resume/Brian-Crabtree-Resume.md)
 
 ## /// Open source
 
