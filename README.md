@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile/profile-banner.svg" alt="Brian Crabtree — Senior web architect, vanilla-first React" width="100%" />
+  <img src="https://raw.githubusercontent.com/briancrabtree-me/briancrabtree-me/main/assets/profile/profile-banner.svg" alt="Brian Crabtree - Senior web architect, vanilla-first React" width="100%" />
 </p>
 
 <p align="center">
@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://briancrabtree.me/">
-    <img src="assets/profile/psi-scorecard.svg" alt="PageSpeed Insights lab scores: 100 Performance, 100 Accessibility, 100 Best Practices, 100 SEO" width="100%" />
+    <img src="https://raw.githubusercontent.com/briancrabtree-me/briancrabtree-me/main/assets/profile/psi-scorecard.svg" alt="PageSpeed Insights lab scores: 100 Performance, 100 Accessibility, 100 Best Practices, 100 SEO" width="100%" />
   </a>
 </p>
 
@@ -27,7 +27,7 @@ I build and repair web systems where speed and clarity matter: semantic HTML, va
 ## /// Stack
 
 <p align="center">
-  <img src="assets/profile/stack-strip.svg" alt="React 19, TypeScript, Vite, Vanilla CSS, Firebase, Linux" width="100%" />
+  <img src="https://raw.githubusercontent.com/briancrabtree-me/briancrabtree-me/main/assets/profile/stack-strip.svg" alt="React 19, TypeScript, Vite, Vanilla CSS, Firebase, Linux" width="100%" />
 </p>
 
 - React 19, TypeScript, Vite
