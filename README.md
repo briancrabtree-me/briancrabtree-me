@@ -8,6 +8,8 @@
 [![Email](https://img.shields.io/badge/email-brian%40briancrabtree.me-ccff00?style=flat-square)](mailto:brian@briancrabtree.me)
 [![Journal](https://img.shields.io/badge/field_notes-journal-ccff00?style=flat-square)](https://briancrabtree.me/journal)
 [![Resume](https://img.shields.io/badge/resume-view_%7C_pdf-ccff00?style=flat-square)](https://briancrabtree.me/resume/Brian-Crabtree-Resume.html)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-briancrabtree--me-ccff00?style=flat-square)](https://www.linkedin.com/in/briancrabtree-me)
+[![Open VSX](https://img.shields.io/badge/Open_VSX-briancrabtree--me-ccff00?style=flat-square)](https://open-vsx.org/?search=briancrabtree-me)
 [![Follow](https://img.shields.io/badge/follow-@briancrabtree--me-ccff00?style=flat-square)](https://github.com/briancrabtree-me)
 
 </p>
