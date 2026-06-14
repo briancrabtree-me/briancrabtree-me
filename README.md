@@ -42,6 +42,7 @@ I build and repair web systems where speed and clarity matter: semantic HTML, va
 | | |
 | :--- | :--- |
 | [pure-react-19-vanilla-starter](https://github.com/briancrabtree-me/pure-react-19-vanilla-starter) | Vite + React 19 reference — prerender shell, CSS before module JS, PSI-minded defaults |
+| [react-19-cms-demo](https://github.com/briancrabtree-me/react-19-cms-demo) | Public site + lazy admin CRUD — localStorage persistence, starter styling |
 | [react-pubsub-store](https://github.com/briancrabtree-me/react-pubsub-store) | Pub/sub external store for React 19 (`useSyncExternalStore`), no framework lock-in |
 | [vanilla-css-tokens](https://github.com/briancrabtree-me/vanilla-css-tokens) | Acid-on-dark design tokens and optional layout primitives |
 | [snippet-library](https://github.com/briancrabtree-me/snippet-library) | Copy-paste CSS, JS, HTML, and React snippets (themeable) |
